@@ -16,9 +16,11 @@ from sensor 0, needs only to read from /dev/lunix0-temp.
 # Installation
 The installation process of this driver is fairly simple. Just clone this 
 repository and build the driver 
-
+```
 $ cd /path/to/repository/
 $ make
-
+```
 And then run 
+```
 $ sudo ./mod_init.sh
+```
