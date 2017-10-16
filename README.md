@@ -1,8 +1,8 @@
 # LunixTNG-Driver
 
 # Disclaimer
-This the result of an assignment given during the course of the os 
-lab at ntua. The assignment was based on skeleton code provided by professors.
+This is the result of an assignment given during the course of the os 
+lab at ece ntua. The assignment was based on skeleton code provided by professors.
 
 # Descritpion
 The Lunix:TNG Driver is a character device driver for Linux that gives access 
