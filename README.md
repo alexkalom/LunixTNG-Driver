@@ -18,9 +18,7 @@ The installation process of this driver is fairly simple. Just clone this
 repository and build the driver 
 
 $ cd /path/to/repository/
-
 $ make
 
 And then run 
-
 $ sudo ./mod_init.sh
