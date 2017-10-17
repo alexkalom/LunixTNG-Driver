@@ -41,7 +41,7 @@ USER_CFLAGS = -Wall -Werror #-m32
 
 PWD       := $(shell pwd)
 
-all:	modules lunix-attach get_resources
+all:	modules lunix-attach
 
 modules: lunix-lookup.h
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) $(KERNEL_VERBOSE) $(KERNEL_MAKE_ARGS) modules
@@ -67,12 +67,3 @@ lunix-lookup.h: mk_lookup_tables
 
 mk_lookup_tables: mk_lookup_tables.c
 	$(CC) $(USER_CFLAGS) -o mk_lookup_tables mk_lookup_tables.c -lm
-
-
-get_resources: lunix.ko lunix_dev_nodes.sh lunix-attach
-	cp ./lunix_dev_nodes.sh ../
-	cp ./lunix.ko ../
-	cp ./lunix-attach ../
-	cp ./mod_init.sh ../
- 
-	
