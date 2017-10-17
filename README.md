@@ -4,7 +4,7 @@
 This is the result of an assignment given during the course of the os 
 lab at ece ntua. The assignment was based on skeleton code provided by professors.
 
-# Descritpion
+# Description
 The Lunix:TNG Driver is a character device driver for Linux that gives access 
 to a set of measurements obtained from a wireless set of sensors. These 
 sensors are connected to each other through a wireless mesh, that ends up to a
